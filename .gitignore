@@ -1,6 +1,11 @@
 frontend/node_modules
 frontend/dist
 backend/.env
+EmotionNet
+face
+minor-recovery
+speech
+backend/model/model.weights.h5
 
 .vscode/*
 !.vscode/extensions.json

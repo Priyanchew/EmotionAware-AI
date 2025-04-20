@@ -77,7 +77,7 @@ function Webcam({ onEmotionChange }) {
             console.error('Error analyzing emotion:', error);
           }
         }
-      }, 3000);
+      }, 1000);
     }
 
     return () => clearInterval(detectEmotionInterval); // Cleanup on unmount
